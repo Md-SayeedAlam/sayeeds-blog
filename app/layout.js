@@ -24,12 +24,12 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar/>
-       <div className="min-h-screen">
-       {children}
-       </div>
-        <Footer/>
+        <Navbar></Navbar>
+        <div className="min-h-screen">
+        {children}
 
+        </div>
+        <Footer></Footer>
       </body>
     </html>
   );
