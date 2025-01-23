@@ -1,5 +1,8 @@
+
+
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+// eslint-disable-next-line import/no-anonymous-default-export
+export default {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -16,7 +19,5 @@ module.exports = {
   plugins: [
     require("daisyui"),
   ],
-  daisyui: {
-    themes: ["light","dark"],
-  },
+  
 };
