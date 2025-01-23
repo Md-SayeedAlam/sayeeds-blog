@@ -1,7 +1,7 @@
-import { getKindeServerSession } from '@kinde-oss/kinde-auth-nextjs/server';
 import React from 'react';
 import Image from 'next/image';
 import PrivateRoute from '@/components/PrivateRoute';
+import { getKindeServerSession } from '@kinde-oss/kinde-auth-nextjs/server';
 
 
 
@@ -11,8 +11,7 @@ const Profile =async () => {
    
 
      const user =await getUser();
-    // const image = user.picture
-    //  console.log(user)
+    
     return (
         <div>
 
