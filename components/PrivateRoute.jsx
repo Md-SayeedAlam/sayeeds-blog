@@ -8,7 +8,7 @@ const PrivateRoute = ({user}) => {
     
     const router = useRouter()
     
-    if(!user) return  redirect('/api/auth/login')
+    // if(!user) return  redirect('/api/auth/login')
     
 
 
