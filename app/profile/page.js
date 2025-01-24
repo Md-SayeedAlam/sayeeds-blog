@@ -27,9 +27,7 @@ const Profile =async () => {
             
           </div>
 
-      {
-        (await getUser()) ? <>hello</> :<>mittha</>
-      }
+      
 
         {/* {
             user? 
