@@ -12,6 +12,7 @@ const PrivateRoute = async () => {
 
   return (
     <div>
+      <div><h2 className='text-center my-16 text-3xl font-bold'> Welcome to your profile! {user?.given_name}</h2></div>
       <div className="flex flex-col justify-center items-center">
         <h2 className="text-xl font-semibold">Name: {user?.given_name}</h2>
         <div className="flex justify-center items-center text-xl">
