@@ -27,7 +27,7 @@ const Profile =async () => {
             
           </div>
 
-      
+        <PrivateRoute/>
 
         {/* {
             user? 
