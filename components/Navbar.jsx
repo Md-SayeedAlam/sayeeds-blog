@@ -22,7 +22,7 @@ const Navbar = async () => {
             </Link>
 
             <Link
-              href="/profile"
+              href={`${user ? "/profile" : "api/auth/login"}`}
               className="px-1 lg:px-2 py-1 border border-gray-400 rounded-md"
             >
               Profile

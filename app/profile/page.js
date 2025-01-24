@@ -11,9 +11,10 @@ const Profile =async () => {
    
   
      const user =await getUser();
-    const authenticated = await isAuthenticated()
+    // const authenticated = await isAuthenticated()
 
-    if(!authenticated) return <PrivateRoute />
+
+    // if(!authenticated) return <PrivateRoute />
     
     return (
         <div>
