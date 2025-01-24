@@ -11,6 +11,7 @@ const Profile =async () => {
    
   
      const user =await getUser();
+     console.log(user)
     // const authenticated = await isAuthenticated()
 
 
@@ -26,7 +27,9 @@ const Profile =async () => {
             
           </div>
 
-
+      {
+        (await getUser()) ? <>hello</> :<>mittha</>
+      }
 
         {/* {
             user? 
